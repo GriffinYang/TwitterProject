@@ -236,3 +236,11 @@
 .translate {
   transform: translate(-300px) !important;
 }
+@media only screen and (max-width: 400px) {
+  .function {
+    margin-top: 6% !important;
+  }
+  .functions {
+    height: 26.5625rem !important;
+  }
+}
