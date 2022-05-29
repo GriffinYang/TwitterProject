@@ -243,4 +243,7 @@
   .functions {
     height: 26.5625rem !important;
   }
+  .tools {
+    margin-bottom: 1.25rem;
+  }
 }
