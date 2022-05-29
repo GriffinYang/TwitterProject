@@ -150,7 +150,6 @@
   z-index: 999;
 }
 .main-content {
-  margin-top: 3.4375rem;
   margin-bottom: 3.0625rem;
 }
 
@@ -243,7 +242,124 @@
   .functions {
     height: 26.5625rem !important;
   }
-  .tools {
-    margin-bottom: 1.25rem;
-  }
+}
+#main-frame {
+  margin-top: 3.4375rem;
+  width: 100%;
+}
+input {
+  background-color: #eef2f3;
+  border: 0px;
+  height: 1.75rem;
+  border-radius: 15px;
+  width: 250px;
+  text-align: center;
+  outline: none;
+}
+.searchbar {
+  position: relative;
+}
+.searchbar > span > img {
+  height: 1.25rem;
+  position: absolute;
+  right: 68%;
+  top: 3px;
+}
+.input-on-input {
+  text-align: left !important;
+  padding-left: 15%;
+}
+.search-left {
+  right: 85% !important;
+}
+.top-img img {
+  width: 100%;
+}
+.top-img {
+  width: 100%;
+  margin-bottom: 1.75rem;
+}
+.discover-con {
+  width: 90%;
+  margin: 0px auto;
+}
+.discover-con h3 {
+  font-weight: bolder;
+  margin-bottom: 2rem;
+}
+.discover-con h4 {
+  font-weight: bolder;
+  color: #646567;
+  font-size: 1.125rem;
+}
+.discover-con > h4 > span {
+  float: right;
+  color: #646567;
+  margin-bottom: 1.25rem;
+}
+.discover-con > h3 > span {
+  font-weight: bolder;
+}
+.discover-second {
+  margin-bottom: 0.625rem !important;
+}
+.card {
+  border: 1px solid #d5d5d5;
+  border-radius: 0.75rem;
+  display: flex;
+  margin-bottom: 0.625rem;
+}
+.card-text h3 {
+  color: #5e5d62;
+  margin-top: 1.0313rem;
+  margin-left: 0.9375rem;
+  font-size: 10px;
+  margin-bottom: 0.625rem;
+}
+.card-text p {
+  width: 90%;
+  margin: 0px auto;
+}
+.card-text {
+  display: inline-block;
+  width: 70%;
+  margin: 0px 0px;
+}
+.card-img {
+  width: 30%;
+  display: inline-block;
+  margin: 0px 0px;
+}
+.card-img img {
+  width: 100%;
+}
+.author {
+  color: #5e5d62;
+  font-size: 0.8125rem;
+  margin-bottom: 32px;
+}
+.author span {
+  color: black;
+}
+.discover-third {
+  color: #5e5d62;
+  font-size: 1.125rem;
+  margin-bottom: 0.625rem !important;
+}
+.discover-fouth {
+  font-size: 0.8125rem;
+  margin-top: 0px;
+  margin-bottom: 0rem !important;
+}
+.forYou {
+  margin-bottom: 1.875rem !important;
+  font-size: 26px;
+  font-weight: bolder;
+}
+.tweets {
+  color: #5e5d62;
+  margin-bottom: 2rem;
+}
+.hidden {
+  display: none !important;
 }
